@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.contenido{
+    
+    height: 100vh;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#F1{
+    background-image: url('../imagenes/F1.jpg');
+    text-align: center;
+    color: black;
+}
+
+#F2{
+
+     background-image: url('../imagenes/F2.jpg');
+     align-items: center;
+      text-align: center;
+    color: black;
+}
+#F3{
+
+     background-image: url('../imagenes/F3.jpg');
+     align-items: center;
+      text-align: center;
+    color: white;
+}
+#F4{
+
+     background-image: url('../imagenes/F4.jpg');
+     align-items: center;
+      text-align: center;
+    color: white;
+}
+#F5{
+
+     background-image: url('../imagenes/F5.jpg');
+     align-items: center;
+      text-align: center;
+    color: white;
+}
+#F6{
+
+     background-image: url('../imagenes/F6.jpg');
+     align-items: center;
+      text-align: center;
+    color: white;
+}
+
+/*menu*/
+nav{
+    position: fixed;
+    left: 200px;
+    top: 30%;
+    z-index: 100;
+
+    transition: 0.4s ease;
+    transform: translateX(-50%);   
+}
+
+ul {
+    list-style: none
+    
+}
+
+ul a{
+    display: block;
+    color:black;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px 0;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    transition:  0.4s ease;
+}
+a:hover{
+    transform: translateX(10%);
+    background-color: black;
+    color:white;
+    border: 0;
+    
+}
